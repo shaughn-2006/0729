@@ -11,43 +11,30 @@
       border-collapse: collapse;
     }
     @media screen and (max-width: 600px) {
-      .layout,
-      .layout tbody
-      .layout, tr
-      .layout, td {
-        display: block;
-        width: 100%;
-        box-sizing: border-box;
+     .page-layout {
+       display: block;
+     }
+      .sidebar {
+        width 100%;
+        margin-bottom: 30px;
       }
       .content {
-        padding: 0
-        margin: 0;
-        overflow-wrap: break-word
-      }
-      .content {
-        margin-top; 0; 
-        margin-bottom; 10px;
+        width: 100%
       }
     }
   </style>
 </head>
-
 <body>
 <font face="Times New Roman" size="3">
-<table class="layout">
-  <tr>
-    <td width="200" valign="top" align="left">
-      <table width="200" align="left">
-        <tr><td><h2>Menu</h2></td></tr>
-        <tr><td><a href="index.html">[Home]</a></td></tr>
-        <tr><td><a href="works.html">Works</a></td></tr>
-        <tr><td><a href="miscellaneous.html">Miscellaneous</a></td></tr>
-      </table>
-    </td>
-    
-    <td width="700" valign="top" align="left">
-      <h1>Sean Chris Constantine V. Opao</h2>
-      <br>1968mazdacosmo
+<div class="page-layout">
+  <aside class="sidebar">
+    <h2>Menu</h2>
+    <a href="index.html">[Home]</a>
+    <a href="works.html">Works</a>
+    <a href="miscellaneous.html">Miscellaneous</a>
+  </aside>
+    <main class="Sean Chris Constantine V. Opao"
+      <br>1968mazdacosmo/SeanKnowsHow
       <p>As for my credentials, I'm barely self-disciplined. I only draw when I'm
       <br>inspired, but not inspired most of the time so there's only been one of
       <br>my works you'll see here that have been completed. I'm primarily a
@@ -56,9 +43,7 @@
       <br>wanna do more detailed paintings: the face in general is pretty smooth so
       <br>the shadows and light will "evaporate like vapor" - one of the reasons
       <br>why Leonardo is famous.
-    </td>
-  </tr>
-</table>
+</div>
 </font>
 </body>
 </html>
